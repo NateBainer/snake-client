@@ -19,6 +19,7 @@ const connect = function() {
   conn.on('connect', () => {
     console.log('YO WE CONNECT');
     conn.write('Name: McB');
+    // conn.write('Move: down');
   });
 
   
